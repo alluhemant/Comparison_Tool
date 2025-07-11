@@ -269,11 +269,11 @@ def show_comparison_result(comp: Dict, idx: int, section_prefix: str = "recent")
 
 def show_dashboard():
     """Main dashboard function"""
-    st.set_page_config(layout="wide", page_title="XML Comparison Dashboard", page_icon="🔍")
+    st.set_page_config(layout="wide", page_title="Comparison Dashboard", page_icon="🔍")
     show_api_endpoints()
     show_api_tester(key_suffix="_main")
 
-    st.title("XML Comparison Dashboard")
+    st.title("Comparison Dashboard")
     st.markdown("---")
 
     # Initialize session state with robust structure
