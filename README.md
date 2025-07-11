@@ -83,6 +83,21 @@ Launch the Streamlit Dashboard
     streamlit run ui/dashboard.py
     Communicates with FastAPI at: API_BASE_URL from .env
 
+### ▶️ Run the App
+    What Happens Internally
+	    Streamlit CLI launches: streamlit run starts the app server and watches for code changes.
+    Script executes:
+	    dashboard.py is run like a Python script.
+    
+    Any code under if __name__ == "__main__" is also executed.
+    
+    Web UI is built:
+            All st.* commands render interactive components in the browser.
+    
+    Browser auto-launches:
+            Streamlit opens http://localhost:8501 in your default browser.
+            If it doesn't, you can visit that address manually.
+
 API Endpoints
     
     POST /api/v1/compare → Run a new comparison
