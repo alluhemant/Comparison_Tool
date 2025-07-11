@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: xml-comparison
+Version: 0.1
+Requires-Python: >=3.8
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: streamlit
+Requires-Dist: httpx
+Requires-Dist: deepdiff
