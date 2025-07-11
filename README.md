@@ -65,7 +65,12 @@ xml_comparison/
 2. Install Dependencies
     pip install -r requirements.txt
 
-3. Configure Environment
+3. Set PYTHONPATH in PowerShell or CMD
+    If using PowerShell:
+        powershell
+            $env:PYTHONPATH = "."
+               EX:-streamlit run ui/dashboard.py
+4. Configure Environment
     cp .env.template .env
 
 Run the Application
